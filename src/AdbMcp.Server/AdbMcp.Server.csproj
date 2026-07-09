@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net481</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    <RootNamespace>AdbMcp.Server</RootNamespace>
+    <AssemblyName>adb-mcp-server</AssemblyName>
+    <Deterministic>true</Deterministic>
+    <Nullable>disable</Nullable>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AdbMcp.Core\AdbMcp.Core.csproj" />
+  </ItemGroup>
+
+</Project>

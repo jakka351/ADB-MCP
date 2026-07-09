@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net481</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    <RootNamespace>AdbMcp.Tests</RootNamespace>
+    <AssemblyName>AdbMcp.Tests</AssemblyName>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\AdbMcp.Core\AdbMcp.Core.csproj" />
+  </ItemGroup>
+
+</Project>

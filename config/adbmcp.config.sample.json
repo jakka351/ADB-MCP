@@ -1,0 +1,42 @@
+{
+  "//": "Sample ADB-MCP server configuration. Copy to adbmcp.config.json and edit.",
+  "//adbPath": "Path to a MODERN adb (Android platform-tools). The build bundled with older Windows is too old.",
+
+  "adbPath": "C:\\platform-tools\\adb.exe",
+  "scrcpyPath": "scrcpy",
+  "deviceSerial": null,
+
+  "commandTimeoutMs": 15000,
+
+  "maxFrameDimension": 1080,
+  "jpegQuality": 65,
+  "frameFormat": "jpeg",
+
+  "requireConfirmation": true,
+  "allowUnlistedShellWithConfirm": false,
+
+  "logLevel": "info",
+
+  "//streaming": "scrcpy low-latency H.264 video + control socket. Needs a scrcpy-server JAR matching the version.",
+  "scrcpyServerJar": null,
+  "scrcpyServerVersion": "2.4",
+  "streamMaxSize": 1024,
+  "enableStreamDecode": true,
+
+  "shellAllowlist": [
+    "^input(\\s+.*)?$",
+    "^wm\\s+size$",
+    "^wm\\s+density$",
+    "^dumpsys\\s+.*$",
+    "^getprop(\\s+.*)?$",
+    "^pm\\s+list\\s+.*$",
+    "^settings\\s+get\\s+.*$",
+    "^screencap(\\s+.*)?$",
+    "^uiautomator\\s+dump.*$",
+    "^am\\s+start(\\s+.*)?$",
+    "^monkey\\s+.*$",
+    "^cat\\s+/sdcard/.*$",
+    "^ls(\\s+.*)?$",
+    "^echo(\\s+.*)?$"
+  ]
+}

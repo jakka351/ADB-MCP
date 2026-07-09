@@ -1,0 +1,21 @@
+# Build output
+bin/
+obj/
+[Bb]uild/
+*.user
+*.suo
+
+# Rider / VS
+.vs/
+.idea/
+
+# NuGet
+*.nupkg
+packages/
+
+# Local, non-sample config (keep the sample, ignore the real one)
+config/adbmcp.config.json
+
+# OS
+Thumbs.db
+.DS_Store

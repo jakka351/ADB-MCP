@@ -1,0 +1,15 @@
+{
+  "//": "ADB-MCP server config. Drop this into your MCP client (Claude Desktop: claude_desktop_config.json; Claude Code: .mcp.json). Auto-selects the single connected device, so it survives wireless-ADB port changes — just reconnect the phone and the server picks it up.",
+  "mcpServers": {
+    "adb-android": {
+      "command": "C:\\Users\\admin\\Desktop\\ADB-MCP\\src\\AdbMcp.Server\\bin\\Release\\net481\\adb-mcp-server.exe",
+      "args": [
+        "--adb", "C:\\Program Files (x86)\\Android\\android-sdk\\platform-tools\\adb.exe",
+        "--log-level", "info"
+      ],
+      "env": {
+        "ANDROID_ADB_SERVER_PORT": "5860"
+      }
+    }
+  }
+}
