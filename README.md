@@ -1,3 +1,6 @@
+<img width="25%" height="25%" align="right" alt="image" src="https://github.com/user-attachments/assets/0f30244d-6fde-4310-9d4f-cb63bac07082" />
+
+  
 # ADB-MCP — AI-Controlled Android over ADB
 
 A **.NET Framework 4.8.1 / C#** [Model Context Protocol](https://modelcontextprotocol.io) server that gives
