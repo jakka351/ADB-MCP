@@ -1,4 +1,4 @@
-<img width="25%" height="25%" align="right" alt="image" src="https://github.com/user-attachments/assets/0f30244d-6fde-4310-9d4f-cb63bac07082" />
+<img width="16%" height="16%" align="right" alt="image" src="https://github.com/user-attachments/assets/0f30244d-6fde-4310-9d4f-cb63bac07082" />
 
   
 # ADB-MCP — AI-Controlled Android over ADB
