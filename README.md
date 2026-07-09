@@ -19,6 +19,9 @@ plane**, and the **authority model** (confirmation gates + shell allowlist) that
 
 ---
 
+<img width="16%" height="16%" align="right" alt="image" src="https://github.com/user-attachments/assets/4a7c1ae5-2315-43b2-b131-0f37b0390c2e" />
+
+
 ## What you get
 
 | Plane | How it works here |
